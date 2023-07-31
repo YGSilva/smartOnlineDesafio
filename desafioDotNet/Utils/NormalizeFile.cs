@@ -5,17 +5,12 @@ using desafioDotNet.Enums;
 namespace desafioDotNet.Utils {
     public class NormalizeFile {
         public List<RegisterModel> GetRegistration(string content) {
-
-            
-
             var registers = new List<RegisterModel>();
 
             var lines = content.Split(new string[] { "\r\n", "\n" }, StringSplitOptions.RemoveEmptyEntries);
 
             foreach (var line in lines) {
                 var register = new RegisterModel();
-
-                TimeZoneInfo tz = TimeZoneInfo.FindSystemTimeZoneById("Pacific Standard Time");
 
                 register.Tipo = (TransactionType)Enum.Parse(typeof(TransactionType), line.Substring(0, 1));
 
@@ -26,7 +21,7 @@ namespace desafioDotNet.Utils {
                     month = 1;
 
                 DateTime data = new DateTime(year, month, day, 0, 0, 0);
-                DateTime realData = TimeZoneInfo.ConvertTimeToUtc(data, tz);
+                DateTime realData = TimeZoneInfo.ConvertTimeToUtc(data);
 
                 register.Data = realData;
                 register.Valor = double.Parse(line.Substring(9, 10)) / 100;

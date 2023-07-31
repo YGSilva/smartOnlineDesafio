@@ -16,6 +16,7 @@ builder.Services.AddDbContext<RegisterContext>(options =>
 
 builder.Services.AddControllers();
 builder.Services.AddFluentValidation();
+
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

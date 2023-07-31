@@ -18,10 +18,8 @@ namespace desafio.Controllers {
             _normalizeFile = normalizeFile;
         }
 
-
-
-        [HttpPost("ProcessarArquivo")]
-        public IActionResult ProcessarArquivo(IFormFile file) {
+        [HttpPost("ProcessFile")]
+        public IActionResult ProcessFile(IFormFile file) {
             if (file == null || file.Length == 0) {
                 return BadRequest("Nenhum arquivo enviado.");
             }
