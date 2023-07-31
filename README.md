@@ -4,7 +4,7 @@
 
 Por favor leia este documento do começo ao fim, com muita atenção. O intuito deste teste é avaliar seus conhecimentos técnicos de programação.
 
-O teste consiste em parsear este arquivo de texto [CNAB](https://github.com/smartonlineapp/desafio.net/blob/main/CNAB.txt) e salvar suas informações (_transações financeiras_) em uma base de dados a seu critério.
+O teste consiste em parsear este arquivo de texto [CNAB](https://github.com/YGSilva/smartOnlineDesafio/blob/master/CNAB.txt) e salvar suas informações (_transações financeiras_) em uma base de dados a seu critério.
 
 ## Entrega do desafio
 
@@ -18,7 +18,7 @@ Você recebeu um arquivo CNAB com os dados das movimentações finanaceiras de v
 
 É necessário que estes dados sejam importados para um banco de dados.
 
-Sua tarefa é criar uma interface web que aceite upload do arquivo [CNAB](https://github.com/smartonlineapp/desafio.net/blob/main/CNAB.txt), normalize os dados e armazene-os em um banco de dados relacional ou NoSQL e exiba essas informações em tela.
+Sua tarefa é criar uma interface web que aceite upload do arquivo [CNAB](https://github.com/YGSilva/smartOnlineDesafio/blob/master/CNAB.txt), normalize os dados e armazene-os em um banco de dados relacional ou NoSQL e exiba essas informações em tela.
 
 ## Documentação do CNAB
 
