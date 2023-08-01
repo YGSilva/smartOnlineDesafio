@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "f1ssS+tNJl8L7v41JCc+MncJG0BTOfi5mM1Yg64BBPE8Jzeg7DK2TKRtOuteGfm7bA4C+aDWnDo1u3kVRDwgLw==",
+  "dgSpecHash": "MBVHCaawhEAP6TfHFWlUawh6HMsWsqr1kFVpDhmFy1vBTtTX3nTfebr2MN79sdFFqreVSFazByNoaE9kP71rpQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yago\\OneDrive\\Desktop\\desafioDotNet\\desafioDotNet\\desafioDotNet.csproj",
   "expectedPackageFiles": [
@@ -53,6 +53,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "C:\\Users\\Yago\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.5.0\\swashbuckle.aspnetcore.annotations.6.5.0.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.5.0\\swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.5.0\\swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",

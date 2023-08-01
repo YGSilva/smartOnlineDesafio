@@ -5,6 +5,7 @@ C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desa
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.runtimeconfig.json
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.pdb
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.xml
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
@@ -29,6 +30,7 @@ C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Newt
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Npgsql.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -49,6 +51,7 @@ C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\scop
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.csproj.CopyComplete
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\refint\desafioDotNet.dll
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.xml
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.pdb
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.genruntimeconfig.cache
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\ref\desafioDotNet.dll

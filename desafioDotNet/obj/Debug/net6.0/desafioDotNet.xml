@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>desafioDotNet</name>
+    </assembly>
+    <members>
+        <member name="T:desafioDotNet.Migrations.PrimeiroData">
+            <inheritdoc />
+        </member>
+        <member name="M:desafioDotNet.Migrations.PrimeiroData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:desafioDotNet.Migrations.PrimeiroData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:desafioDotNet.Migrations.PrimeiroData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:desafio.Controllers.UploadController.ProcessFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Upload do arquivo CNAB.txt
+            </summary>
+            <param name="file"> Arquivo com os dados </param>
+            <returns> Dados criados na Base </returns>
+            <response code="201"> Sucesso </response>
+        </member>
+    </members>
+</doc>
