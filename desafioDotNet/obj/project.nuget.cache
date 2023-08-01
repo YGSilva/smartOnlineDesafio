@@ -1,12 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "amljwOzW3fzpqlx4swEbmyo6eAs7NsAnyxZzQO+81YirjSPJ0CK277rHVqJzbk5QOmDmR0A+djKhYEgtxrMYCg==",
+  "dgSpecHash": "f1ssS+tNJl8L7v41JCc+MncJG0BTOfi5mM1Yg64BBPE8Jzeg7DK2TKRtOuteGfm7bA4C+aDWnDo1u3kVRDwgLw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yago\\OneDrive\\Desktop\\desafioDotNet\\desafioDotNet\\desafioDotNet.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Yago\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
-    "C:\\Users\\Yago\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
-    "C:\\Users\\Yago\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.12\\microsoft.aspnetcore.jsonpatch.6.0.12.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.12\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.12.nupkg.sha512",

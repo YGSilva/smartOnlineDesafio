@@ -1,5 +1,4 @@
 ﻿using desafioDotNet.Enums;
-using FluentValidation;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Transactions;

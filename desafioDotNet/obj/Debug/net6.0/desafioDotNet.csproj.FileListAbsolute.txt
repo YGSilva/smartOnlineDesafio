@@ -1,10 +1,3 @@
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.csproj.AssemblyReference.cache
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.AssemblyInfoInputs.cache
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.AssemblyInfo.cs
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.csproj.CoreCompileInputs.cache
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\appsettings.json
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.exe
@@ -12,9 +5,6 @@ C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desa
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.runtimeconfig.json
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\desafioDotNet.pdb
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\FluentValidation.dll
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
-C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
@@ -46,6 +36,13 @@ C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\Syst
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.csproj.AssemblyReference.cache
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.AssemblyInfoInputs.cache
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.AssemblyInfo.cs
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.csproj.CoreCompileInputs.cache
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\desafioDotNet.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\Yago\OneDrive\Desktop\desafioDotNet\desafioDotNet\obj\Debug\net6.0\scopedcss\bundle\desafioDotNet.styles.css

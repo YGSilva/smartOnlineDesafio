@@ -4,6 +4,7 @@ using desafioDotNet.Models;
 using Microsoft.AspNetCore.Mvc;
 using desafioDotNet.Context;
 using System.Globalization;
+using desafioDotNet.Repository.Interfaces;
 
 namespace desafio.Controllers {
     [ApiController]
@@ -12,10 +13,12 @@ namespace desafio.Controllers {
 
         private readonly RegisterContext _context;
         private readonly NormalizeFile _normalizeFile;
+        private readonly IFileRepository _repository;
 
-        public UploadController(RegisterContext context, NormalizeFile normalizeFile) {
+        public UploadController(RegisterContext context, NormalizeFile normalizeFile, IFileRepository repository) {
             _context = context;
             _normalizeFile = normalizeFile;
+            _repository = repository;
         }
 
         [HttpPost("ProcessFile")]
@@ -42,6 +45,20 @@ namespace desafio.Controllers {
             }
         }
 
-       
+        [HttpGet("ListWithTotalBalance")]
+        public async Task<ActionResult> ListWithTotalBalance() {
+            var file = _repository.GetListWithTotalBalance();
+            return file.Any()
+                ? Ok(file)
+                : BadRequest("NÃO EXISTE NADA NA BASE DE DADOS");
+        }
+
+        [HttpGet("OperationsWrong")]
+        public async Task<ActionResult> OperationsWrong() {
+            var file = _repository.GetOperationsWrong();
+            return file.Any()
+                ? Ok(file)
+                : BadRequest("NÃO EXISTEM OPERAÇÕES QUE FALHARAM");
+        }
     }
 }
