@@ -24,5 +24,21 @@
             <returns> Dados criados na Base </returns>
             <response code="201"> Sucesso </response>
         </member>
+        <member name="M:desafio.Controllers.UploadController.ListWithTotalBalance">
+            <summary>
+            Obtém uma lista com o total de saldo em conta agrupado por tipo de operação e loja com excessão das operações que falharam.
+            </summary>
+            <returns> Lista agrupada e com saldo total </returns>
+            <response code="200"> Sucesso </response>
+            <response code="404"> Dados não encontrado na base </response>
+        </member>
+        <member name="M:desafio.Controllers.UploadController.OperationsWrong">
+            <summary>
+            Obtém uma lista com as operações que falharam.
+            </summary>
+            <returns> Lista com os dados das operações falhas </returns>
+            <response code="200"> Sucesso </response>
+            <response code="404"> Dados não encontrado na base </response>
+        </member>
     </members>
 </doc>

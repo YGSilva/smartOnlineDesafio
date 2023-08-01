@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafioDotNet", "desafioDotNet\desafioDotNet.csproj", "{0A7CDD2B-2E5B-4399-95B5-6965B31F5ED3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafioDotNet", "desafioDotNet\desafioDotNet.csproj", "{0A7CDD2B-2E5B-4399-95B5-6965B31F5ED3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafioDotNet.Test", "desafioDotNet.Test\desafioDotNet.Test.csproj", "{2E82E647-973F-4366-AD38-9C70AC3D84F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{0A7CDD2B-2E5B-4399-95B5-6965B31F5ED3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A7CDD2B-2E5B-4399-95B5-6965B31F5ED3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A7CDD2B-2E5B-4399-95B5-6965B31F5ED3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E82E647-973F-4366-AD38-9C70AC3D84F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E82E647-973F-4366-AD38-9C70AC3D84F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E82E647-973F-4366-AD38-9C70AC3D84F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E82E647-973F-4366-AD38-9C70AC3D84F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
