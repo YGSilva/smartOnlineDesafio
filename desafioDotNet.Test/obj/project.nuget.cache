@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "n1uaWQq1UrN+acDPPLzGT+Q2Es0qEJrce8t+bAhNZh27STf9zLcAVH6QqhGn1DZsVpH0V52+WIEmtL4CR3AD7A==",
+  "dgSpecHash": "mUD1uUrmK6qQOo7BP5Gd6WGf0UVb0ezOzkM4eEct9QvhP1KzrALj3J+4puh1zwH1IPKY2T9Z6sADpLk03fhSSQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yago\\OneDrive\\Desktop\\desafioDotNet\\desafioDotNet.Test\\desafioDotNet.Test.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Yago\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
+    "C:\\Users\\Yago\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.12\\microsoft.aspnetcore.jsonpatch.6.0.12.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.12\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.12.nupkg.sha512",
@@ -32,6 +32,7 @@
     "C:\\Users\\Yago\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
+    "C:\\Users\\Yago\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",

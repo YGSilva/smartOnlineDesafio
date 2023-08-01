@@ -7,16 +7,16 @@ using System.Globalization;
 using desafioDotNet.Repository.Interfaces;
 using Swashbuckle.AspNetCore.Annotations;
 
-namespace desafio.Controllers {
+namespace desafioDotNet.Controllers {
     [ApiController]
     [Route("api/[controller]")]
-    public class UploadController : ControllerBase {
+    public class FileController : ControllerBase {
 
         private readonly RegisterContext _context;
         private readonly NormalizeFile _normalizeFile;
         private readonly IFileRepository _repository;
 
-        public UploadController(RegisterContext context, NormalizeFile normalizeFile, IFileRepository repository) {
+        public FileController(RegisterContext context, NormalizeFile normalizeFile, IFileRepository repository) {
             _context = context;
             _normalizeFile = normalizeFile;
             _repository = repository;
