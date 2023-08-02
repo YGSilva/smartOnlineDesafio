@@ -5,7 +5,9 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafioDotNet", "desafioDotNet\desafioDotNet.csproj", "{0A7CDD2B-2E5B-4399-95B5-6965B31F5ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "desafioDotNet.Test", "desafioDotNet.Test\desafioDotNet.Test.csproj", "{2E82E647-973F-4366-AD38-9C70AC3D84F1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "desafioDotNet.Test", "desafioDotNet.Test\desafioDotNet.Test.csproj", "{2E82E647-973F-4366-AD38-9C70AC3D84F1}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C3C007F0-CF4B-4160-BC8B-594D050FE544}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2E82E647-973F-4366-AD38-9C70AC3D84F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E82E647-973F-4366-AD38-9C70AC3D84F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E82E647-973F-4366-AD38-9C70AC3D84F1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3C007F0-CF4B-4160-BC8B-594D050FE544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3C007F0-CF4B-4160-BC8B-594D050FE544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3C007F0-CF4B-4160-BC8B-594D050FE544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3C007F0-CF4B-4160-BC8B-594D050FE544}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

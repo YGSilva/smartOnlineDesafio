@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MBVHCaawhEAP6TfHFWlUawh6HMsWsqr1kFVpDhmFy1vBTtTX3nTfebr2MN79sdFFqreVSFazByNoaE9kP71rpQ==",
+  "dgSpecHash": "6LwkMw6qYYT4ScIMhzOLdnwcTco92E9YI3mQSGhP6a0ZYeA1Qy/w5MbFfaxnff0XeiHMY7dO3ghfYcA1S0fPAQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Yago\\OneDrive\\Desktop\\desafioDotNet\\desafioDotNet\\desafioDotNet.csproj",
   "expectedPackageFiles": [
@@ -29,6 +29,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Yago\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.15.1\\microsoft.visualstudio.azure.containers.tools.targets.1.15.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\Yago\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",

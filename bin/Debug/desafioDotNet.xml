@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>desafioDotNet</name>
+    </assembly>
+    <members>
+        <member name="M:desafioDotNet.Controllers.FileController.ProcessFile(Microsoft.AspNetCore.Http.IFormFile)">
+            <summary>
+            Upload do arquivo CNAB.txt
+            </summary>
+            <param name="file"> Arquivo com os dados </param>
+            <returns> Dados criados na Base </returns>
+            <response code="201"> Sucesso </response>
+        </member>
+        <member name="M:desafioDotNet.Controllers.FileController.ListWithTotalBalance">
+            <summary>
+            Obtém uma lista com o total de saldo em conta agrupado por tipo de operação e loja com excessão das operações que falharam.
+            </summary>
+            <returns> Lista agrupada e com saldo total </returns>
+            <response code="200"> Sucesso </response>
+            <response code="404"> Dados não encontrado na base </response>
+        </member>
+        <member name="M:desafioDotNet.Controllers.FileController.OperationsWrong">
+            <summary>
+            Obtém uma lista com as operações que falharam.
+            </summary>
+            <returns> Lista com os dados das operações falhas </returns>
+            <response code="200"> Sucesso </response>
+            <response code="404"> Dados não encontrado na base </response>
+        </member>
+        <member name="T:desafioDotNet.Migrations.PrimeiroData">
+            <inheritdoc />
+        </member>
+        <member name="M:desafioDotNet.Migrations.PrimeiroData.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:desafioDotNet.Migrations.PrimeiroData.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:desafioDotNet.Migrations.PrimeiroData.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

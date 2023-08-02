@@ -1,0 +1,40 @@
+name: dockercompose16582280088143936847
+services:
+  desafiodotnet:
+    build:
+      context: C:\Users\Yago\OneDrive\Desktop\desafioDotNet
+      dockerfile: desafioDotNet\Dockerfile
+    image: desafiodotnet
+    networks:
+      default: null
+  pgadmin:
+    container_name: my-pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: teste@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: postgres
+    image: dpage/pgadmin4
+    networks:
+      my-network: null
+    ports:
+    - mode: ingress
+      target: 80
+      published: "15432"
+      protocol: tcp
+  postgres:
+    container_name: my-postgres
+    environment:
+      POSTGRES_PASSWORD: postgres
+    image: postgres
+    networks:
+      my-network: null
+    ports:
+    - mode: ingress
+      target: 5432
+      published: "5433"
+      protocol: tcp
+networks:
+  default:
+    name: dockercompose16582280088143936847_default
+  my-network:
+    name: dockercompose16582280088143936847_my-network
+    driver: bridge

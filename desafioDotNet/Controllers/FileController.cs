@@ -1,4 +1,4 @@
-
+﻿
 using desafioDotNet.Utils;
 using desafioDotNet.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -33,12 +33,12 @@ namespace desafioDotNet.Controllers {
         [ProducesResponseType(StatusCodes.Status201Created, Type = typeof(List<RegisterModel>))]
         [ProducesResponseType(StatusCodes.Status400BadRequest, Type = typeof(string))]
         public IActionResult ProcessFile(IFormFile file) {
-            if (file == null || file.Length == 0) 
+            if (file == null || file.Length == 0)
                 return BadRequest("Nenhum arquivo enviado.");
 
-            if (!Path.GetExtension(file.FileName).Equals(".txt", System.StringComparison.OrdinalIgnoreCase)) 
+            if (!Path.GetExtension(file.FileName).Equals(".txt", System.StringComparison.OrdinalIgnoreCase))
                 return BadRequest("O arquivo deve ter a extensão .txt.");
-            
+
             using (var reader = new StreamReader(file.OpenReadStream())) {
 
                 var content = reader.ReadToEnd();
