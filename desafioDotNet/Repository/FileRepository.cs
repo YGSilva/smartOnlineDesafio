@@ -42,5 +42,14 @@ namespace desafioDotNet.Repository {
             return operations;
         }
 
+        public void DeleteAllData() {
+            var operations = _context
+                .Register
+                .ToList();
+
+            _context.Register.RemoveRange(operations);
+            _context.SaveChanges();
+        }
+
     }
 }

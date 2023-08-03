@@ -89,6 +89,24 @@ namespace desafioDotNet.Test.Controller {
             Assert.Equal("NÃO EXISTEM OPERAÇÕES QUE FALHARAM", notFoundObjectResult.Value);
         }
 
+        [Fact]
+        public async Task DeleteFile() {
+            // Arrange
+            var data = new List<RegisterModel>{
+                new RegisterModel {}
+            };
+
+            var mockRepository = new Mock<IFileRepository>();
+            mockRepository.Setup(repo => repo.DeleteAllData());
+            var _controllerSubs = new FileController(_context, _normalize, mockRepository.Object);
+
+            // Act
+            var result = _controller.DeleteAllData();
+
+            // Assert
+            Assert.IsType<NoContentResult>(result);
+        }
+
         public IFormFile createTXT() {
             string filePath = "arquivo_de_teste.txt";
 

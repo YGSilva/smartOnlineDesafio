@@ -86,5 +86,18 @@ namespace desafioDotNet.Controllers {
                 ? Ok(file)
                 : NotFound("NÃO EXISTEM OPERAÇÕES QUE FALHARAM");
         }
+
+        /// <summary>
+        /// Exclui todos os dados da base
+        /// </summary>
+        /// <response code="204"> No content </response>
+        [SwaggerOperation(Summary = "Exclui todos os dados da base.")]
+        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<RegisterModel>))]
+        [ProducesResponseType(StatusCodes.Status404NotFound, Type = typeof(string))]
+        [HttpDelete]
+        public IActionResult DeleteAllData() {
+            _repository.DeleteAllData();
+            return NoContent();
+        }
     }
 }

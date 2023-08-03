@@ -5,5 +5,6 @@ namespace desafioDotNet.Repository.Interfaces {
 
         IEnumerable<RegisterModel> GetListWithTotalBalance();
         IEnumerable<RegisterModel> GetOperationsWrong();
+        void DeleteAllData();
     }
 }

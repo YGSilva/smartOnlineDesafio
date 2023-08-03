@@ -1,71 +1,53 @@
-![logo-smartonline](https://www.smartonline.app/logo.a3cd84b4d14610f7.png)
+# Desafio para Vaga de Desenvolvedor .NET
+![SmartOnline Logo](https://www.smartonline.app/logo.a3cd84b4d14610f7.png)
 
-## Desafio para vaga desenvolvedor .NET
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/YGSilva/Iniflex/blob/master/LICENCE) 
 
-Por favor leia este documento do começo ao fim, com muita atenção. O intuito deste teste é avaliar seus conhecimentos técnicos de programação.
+# Descrição do Projeto
 
-O teste consiste em parsear este arquivo de texto [CNAB](https://github.com/YGSilva/smartOnlineDesafio/blob/master/CNAB.txt) e salvar suas informações (_transações financeiras_) em uma base de dados a seu critério.
+O projeto requer o desenvolvimento de uma aplicação web que realize as seguintes tarefas:
 
-## Entrega do desafio
+1. Aceitar o upload de um arquivo [CNAB](https://github.com/YGSilva/smartOnlineDesafio/blob/master/CNAB.txt) por meio de uma interface intuitiva.
+2. Analisar e interpretar os dados do arquivo CNAB, normalizando as informações.
+3. Armazenar corretamente as transações financeiras em um banco de dados à sua escolha (pode ser relacional ou NoSQL).
+4. Verificar a validade dos números de CPF presentes nos dados.
+5. Exibir uma lista de operações importadas por loja, incluindo um totalizador de saldo em conta.
+6. Apresentar uma lista das operações que não foram processadas corretamente.
+7. A aplicação deve ser desenvolvida em .NET, preferencialmente utilizando versões recentes como .NET Core ou ASP.NET MVC.
+8. O processo de configuração e execução da aplicação deve ser simples e utilizar apenas tecnologias e bibliotecas de código aberto.
+9. O banco de dados pode ser PostgreSQL, MySQL, SQL Server ou MongoDB (NoSQL, opcional).
+10. Um arquivo README deve acompanhar o projeto, fornecendo instruções claras para configuração e execução, além de informações sobre como consumir a API.
 
-1. Primeiro, faça um fork deste projeto para sua conta no Github (_crie uma se você não possuir_).
-2. Em seguida, implemente o projeto tal qual descrito abaixo, em seu clone local.
-3. Por fim, envie via e-mail o projeto ou o fork/link do projeto para o RH (andressa.monteiro@onlineapp.com.br).
+## Observações adicionais sobre o projeto
 
-## Descrição do projeto
+1. API Documentada.
+2. Inclusão de teste unitários.
+3. Foi utilizado docker-compose na aplicação e no banco de daodos.
 
-Você recebeu um arquivo CNAB com os dados das movimentações finanaceiras de várias lojas.
+## Tecnologias utilizadas
+- .Net6
+- Entity Framework
+- Swagger
+- PostgresSQL
+- Docker
 
-É necessário que estes dados sejam importados para um banco de dados.
+## NuGets Packages utilizado
+- Microsoft.AspNetCore.Mvc.NewtonsoftJson v6.0.12
+- Microsoft.EntityFrameworkCore v7.0.9
+- Microsoft.EntityFrameworkCore.Design v7.0.9
+- Microsoft.EntityFrameworkCore.Relational.Design v1.1.6
+- Microsoft.EntityFrameworkCore.Tools v7.0.9
+- Microsoft.VisualStudio.Azure.Containers.Tools.Targets v1.15.1
+- Npgsql.EntityFrameworkCore.PostgreSQL v7.0.4
+- Swashbuckle.AspNetCore v6.5.0
+- Swashbuckle.AspNetCore.Annotations v6.5.0
 
-Sua tarefa é criar uma interface web que aceite upload do arquivo [CNAB](https://github.com/YGSilva/smartOnlineDesafio/blob/master/CNAB.txt), normalize os dados e armazene-os em um banco de dados relacional ou NoSQL e exiba essas informações em tela.
-
-## Documentação do CNAB
-
-| Campo | Inicio | Fim | Tamanho | Descrição |
-| ----- | ------ | --- | ------- | --------- |
-| Tipo  | 1  | 1 | 1 | Tipo da transação |
-| Data  | 2  | 9 | 8 | Data da ocorrência |
-| Valor | 10 | 19 | 10 | Valor da movimentação (_o valor precisa ser divido por cem para normalizá-lo_) |
-| CPF | 20 | 30 | 11 | CPF do beneficiário |
-| Cartão | 31 | 42 | 12 | Cartão utilizado na transação |
-| Dono da loja | 43 | 56 | 14 | Nome do representante da loja |
-| Nome da loja | 57 | 74 | 18 | Nome da loja |
-
-## Tipos das Transações
-
-| Tipo | Descrição |
-| ---- | --------- |
-| 1 | Débito |
-| 2 | Crédito |
-| 3 | Pix |
-| 4 | Financiamento |
-
-**Sua aplicação Web Deve:**
-
-1. Possuir uma tela para fazer o upload do arquivo;
-2. Interpretar (_parsear_) o arquivo recebido, normalizar os dados, e salvar corretamente as informações em um banco de dados;
-3. Verificar se os dados de CPF estão válidos;
-4. Exibir uma lista das operações importadas por lojas, e nesta lista deve conter um totalizador do saldo em conta;
-5. Exibir uma lista das operações que deram errado;
-6. Ser escrita obrigatoriamente em .NET em versões recentes, pode ser .NET Core, ASP.MVC, etc;
-7. Ser simples de configurar e rodar. Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas;
-8. Git com commits atomicos e bem descritos;
-9. PostgreSQL, MySQL, SQL Server ou MongoDb (_pode usar qualquer banco relacional ou NoSQL, lembrando que o NoSQL é opcional_);
-10. Readme file descrevendo bem o projeto e seu setup;
-11. Incluir informação descrevendo como consumir o endpoint da API.
-
-**Você ganhará pontos adicionais se:**
-
-1. Lidar com autenticação ou autorização (_mais pontos extras se a autenticação for feita via OAuth_);
-2. Documentar sua API;
-3. Desenvolver testes automatizados;
-4. Utilizar Docker Compose.
+## EndPoints
+- [POST] ProcessFile -> Enpoint onde será feita o update do arquivo [CNAB](https://github.com/YGSilva/smartOnlineDesafio/blob/master/CNAB.txt), nessa tela após a abertura do Swagger e de expandir o andpoint, você irá selecionar a opção "Try it out", na sequência ira aparecer a opção de upload do arquivo, com o arquivo selecionado a opção "Execute" deverá ser acionada, no "Response body" ira aparecer todos os dados do arquivo já formatos.
+- [GET] ListWithTotalBalance -> Endpoint onde será feito o retorno dos dados importados por loja e agrupados pelo tipo de operação juntamente com o somatorio total do valor, como CPF e data serão validados nem todos os dados inputados serão demonstrados, pois não foram processados corretamente.
+- [GET] OperationsWrong -> Endpoint onde será demonstrado os dados que não foram processados corretamente, CPF ou data que vieram no arquivo não estavam corretos.
 
 ## Avaliação
+Yago Gonçalves da Sivla
 
-Avaliaremos a sua familiarização com as bibliotecas padrões (_standard libs_), bem como sua experiência com programação orientada a objetos a partir da estrutura de seu projeto.
-
----
-
-Boa sorte!
+https://www.linkedin.com/in/yago-gonçalves-da-silva/
