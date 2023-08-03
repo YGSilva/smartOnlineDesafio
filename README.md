@@ -46,6 +46,6 @@ O projeto requer o desenvolvimento de uma aplicação web que realize as seguint
 - [POST] ProcessFile -> Enpoint onde será feita o update do arquivo [CNAB](https://github.com/YGSilva/smartOnlineDesafio/blob/master/CNAB.txt), nessa tela após a abertura do Swagger e de expandir o andpoint, você irá selecionar a opção "Try it out", na sequência ira aparecer a opção de upload do arquivo, com o arquivo selecionado a opção "Execute" deverá ser acionada, no "Response body" ira aparecer todos os dados do arquivo já formatos.
 - [GET] ListWithTotalBalance -> Endpoint onde será feito o retorno dos dados importados por loja e agrupados pelo tipo de operação juntamente com o somatorio total do valor, como CPF e data serão validados nem todos os dados inputados serão demonstrados, pois não foram processados corretamente.
 - [GET] OperationsWrong -> Endpoint onde será demonstrado os dados que não foram processados corretamente, CPF ou data que vieram no arquivo não estavam corretos.
-
+- [DELETE] DeleteAllData -> Endpoint responsável por limpar toda a base de dados, tomei a liberdade de coloca-ló para fazer teste com somente os 21 dados passados no upload, após algumas inserções muitos dados eram mostrado, assim alterando no resultado final dos métodos GET
 ## Avaliação
 Yago Gonçalves da Sivla
