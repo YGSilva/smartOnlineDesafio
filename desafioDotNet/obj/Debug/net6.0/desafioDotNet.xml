@@ -28,6 +28,12 @@
             <response code="200"> Sucesso </response>
             <response code="404"> Dados não encontrado na base </response>
         </member>
+        <member name="M:desafioDotNet.Controllers.FileController.DeleteAllData">
+            <summary>
+            Exclui todos os dados da base
+            </summary>
+            <response code="204"> No content </response>
+        </member>
         <member name="T:desafioDotNet.Migrations.PrimeiroData">
             <inheritdoc />
         </member>

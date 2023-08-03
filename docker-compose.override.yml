@@ -12,5 +12,23 @@ services:
         volumes:
             - postgres:/var/lib/postgresql/data
 
+    pgadmin:
+        image: dpage/pgadmin4
+        environment:
+            PGADMIN_DEFAULT_EMAIL: teste@gmail.com
+            PGADMIN_DEFAULT_PASSWORD: pgadmin
+            PGADMIN_LISTEN_PORT: 81
+        ports:
+            - 15440:81
+        volumes:
+            - pgadmin:/var/lib/pgadmin
+        depends_on:
+            - postgres
+
 volumes:
     postgres:
+    pgadmin:
+
+networks:
+  my-network:
+    driver: bridge

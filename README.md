@@ -23,6 +23,7 @@ O projeto requer o desenvolvimento de uma aplicação web que realize as seguint
 1. API Documentada.
 2. Inclusão de teste unitários.
 3. Foi utilizado docker-compose na aplicação e no banco de daodos.
+4. Tambem foi incluido dentro do docker-compose uma imagem do pgadmin, assim podendo averiguar o armazenamento de dados na tabela em tempo real, o link para o acesso é (http://localhost:15440/), na pagina de longin user o Email: teste@gmail.com e a Senha: pgadmin.
 
 ## Tecnologias utilizadas
 - .Net6
