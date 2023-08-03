@@ -41,5 +41,6 @@ namespace desafioDotNet.Repository {
 
             return operations;
         }
+
     }
 }
