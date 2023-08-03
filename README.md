@@ -50,4 +50,8 @@ O projeto requer o desenvolvimento de uma aplicação web que realize as seguint
 ## Avaliação
 Yago Gonçalves da Sivla
 
+<<<<<<< HEAD
 https://www.linkedin.com/in/yago-gonçalves-da-silva/
+=======
+https://www.linkedin.com/in/yago-gonçalves-da-silva/
+>>>>>>> d0187f2936cdd4d650c33b2252b36be2c664c379
